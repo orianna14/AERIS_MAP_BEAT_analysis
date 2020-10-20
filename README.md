@@ -28,7 +28,7 @@ This script calculates change-point for microbiome taxa for longitudinal microbi
 
 5_PELT.R
 
-The R script embedded in 5_changepoint_calc.pl
+The R script embedded in 5_changepoint_calc.pl.
 
 6_calculate_OR.pl
 
@@ -36,7 +36,7 @@ This script calculates odds-ratio for the association between microbiome change-
 
 6_calcor.R
 
-The R script embedded in 6_calculate_OR.pl
+The R script embedded in 6_calculate_OR.pl.
 
 7_cross_cov_calc.pl
 
@@ -44,5 +44,5 @@ This script calculates cross-covariance between microbiome taxa and clinical mea
 
 7_ccf.R
 
-The R script embedded in 7_cross_cov_calc.pl
+The R script embedded in 7_cross_cov_calc.pl.
 
