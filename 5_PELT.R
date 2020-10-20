@@ -1,0 +1,5 @@
+args=commandArgs(trailingOnly=TRUE)
+library(changepoint)
+data<-read.table(file=args[1],header=T)
+meanvar<-cpt.meanvar(data$Abundance,method="PELT")
+capture.output(meanvar,file=args[2])
