@@ -2,7 +2,7 @@
 
 This folder contains perl and R scripts used for major data analyses in the manuscript "Inflammatory endotype associated airway microbiome in COPD clinical stability and exacerbations – a multi-cohort longitudinal analysis" by Wang et al. The description and usage of the scripts are as below:
 
-# 1_combat_analysis.R
+1_combat_analysis.R
 
 This script performs Combat analysis for microbiome data, using the OTU table (i.e. L6.txt) as input.
 
