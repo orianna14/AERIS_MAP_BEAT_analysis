@@ -1,4 +1,4 @@
-# This scripts perform Combat analysis for microbiome data
+# This script performs Combat analysis for microbiome data
 library(sva)
 library(funrar)
 
