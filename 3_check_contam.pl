@@ -3,7 +3,7 @@
 # This script calls upon a text file 'negative_salter_paper.txt' which should be placed in the same folder with the script.
 
 # read in the contamination taxa list from salter paper
-open (IN, "negative_salter_paper.txt");
+open (IN, "3_negative_salter_paper.txt");
 while (<IN>) {
 	chop;
 	$neg{$_} = 1;
@@ -51,7 +51,7 @@ for my $key (keys %hash) {
 	}
 }
 
-open (IN2, "negative_salter_paper.txt");
+open (IN2, "3_negative_salter_paper.txt");
 while (<IN2>) {
 	chop;
 	if (exists $print{$_}) {
