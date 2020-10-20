@@ -1,6 +1,6 @@
 #! /usr/bin/perl -w
 # This script calculates change-point for microbiome taxa for longitudinal microbiome datasets using PELT algorithm.
-# The script utilize an embedded R script (5_PELT.R) which should be placed in the same folder with this script.
+# The script utilizes an embedded R script (5_PELT.R) which should be placed in the same folder with this script.
 
 unless (-e "tables") {
 	system ("mkdir tables results");
